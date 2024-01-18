@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+}
+header{
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+main{
+	display: inline-block;
+}
+	main>h2{
+		text-align: center;
+		padding: 10px;
+	}
+	main>.presentacion{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.con{
+		flex-basis: 500px;
+	}
+article{
+
+	width: 100%;
+
+}
+
+	.busqueda{
+		margin-top: 10px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		
+
+	}
+	.box{
+		display: flex;
+		width: 50%;
+		gap: 5px;
+		flex-basis: 600px;
+		flex-wrap: wrap;
+	}
+	.box>p{
+		font-weight: bold;
+	}
+	.texto{
+		flex-grow: 1;
+	}
+
+
+	.contenedorInformacion{
+		margin-top: 10px;
+		width: 100%;
+		height: auto;
+		
+
+	}
+	.informacion{
+		width: 100%;
+		height: auto;
+		color: white;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.etiqueta{
+		margin-top: 10px;
+		background-color:#DDD0CA;
+		margin: 20px;
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-basis: 100%;
+		gap: 20px;
+		color: black;
+}
+	
+	.item{
+		
+	}
+
+
+	.imagen{
+		width: 50px;
+		height: 50px;
+	}
+	
+
+
